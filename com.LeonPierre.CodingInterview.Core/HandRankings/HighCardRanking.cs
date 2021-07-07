@@ -6,10 +6,7 @@ namespace com.LeonPierre.CodingInterview.Core
     {
         public override HandRankings Rank(IEnumerable<Card> hand, HandRankings currentRank = HandRankings.None)
         {
-            //if (hand.Or)
-                return HandRankings.HighCard;
-            //else
-            //    return NextHandler.Rank(hand, currentRank);
+            return HandRankings.HighCard;
         }
     }
 }
